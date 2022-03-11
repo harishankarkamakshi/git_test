@@ -1,90 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <title>Title of the document</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <style>
-      html,
-      body {
-        height: 100%;
-      }
-      body {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0;
-      }
-      .header-menu,
-      footer {
-        display: flex;
-        align-items: center;
-        width: 100%;
-      }
-      .header-menu {
-        justify-content: flex-end;
-        height: 60px;
-        background: #1c87c9;
-        color: #fff;
-      }
-      h2 {
-        margin: 0 0 8px;
-      }
-      ul li {
-        display: inline-block;
-        padding: 0 10px;
-        list-style: none;
-      }
-      aside {
-        flex: 0.4;
-        height: 165px;
-        padding-left: 15px;
-        border-left: 1px solid #666;
-      }
-      section {
-        flex: 1;
-        padding-right: 15px;
-      }
-      footer {
-        padding: 0 10px;
-        background: #ccc;
-      }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header class="header-menu">
-      <nav>
-        <ul>
-          <li>Menu item</li>
-          <li>Menu item</li>
-          <li>Menu item</li>
-        </ul>
-      </nav>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png" alt="PROGATE">
+        </div>
+        <!-- Add a menu icon here -->
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#">Lessons</a>
+          <a href="#">Sign in</a>
+          <a href="links-images/about.html">About us</a>
+          <a href="#" class="login">Log in</a>
+        </div>
+      </div>
     </header>
-    <section>
-      <article>
-        <header>
-          <h2>Learn HTML</h2>
-          <small>Hyper Text Markup Language</small>
-        </header>
-        <p>Our free HTML tutorial for beginners will teach you HTML and how to create your website from the scratch. HTML isn't difficult, so hoping you will enjoy learning.</p>
-      </article>
-      <article>
-        <header>
-          <h2>Start Quiz "HTML Basic"</h2>
-          <small>You can test your HTML skills with W3docs' Quiz.</small>
-        </header>
-        <p>You will get 5% for each correct answer for single choice questions. In multiple choice question it might be up to 5%. At the end of the Quiz, your total score will be displayed. Maximum score is 100%.</p>
-      </article>
-    </section>
-    <aside>
-      <h2>Our Books</h2>
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
-      <p>PHP</p>
-    </aside>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>LEARN TO CODE.</h1>
+        <h1>LEARN TO BE CREATIVE.</h1>
+        <p>Progate is a web service where you can learn programming online.</p>
+        <p>We offer you a fully equipped coding environment to get you started.</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">Sign up with Email</a>
+          <p>or</p>
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Learn Where to Get Started!</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png" alt="HTML & CSS" > 
+              <p>HTML & CSS</p>
+            </div>
+            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png" alt="jQuery" >
+              <p>jQuery</p>
+            </div>
+            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png" alt="Ruby">
+              <p>Ruby</p>
+            </div>
+            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png" alt="PHP">
+              <p>PHP</p>
+            </div>
+            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Ready to become an awesome programmer?</h2>
+          <h3>Let's learn to code, learn to be creative!</h3>
+        </div>
+        <span class="btn message">Start Learning</span>
+      </div>
+    </div>
     <footer>
-      <small>Company © W3docs. All rights reserved.</small>
+      <div class="container">
+        <img src="https://prog-8.com/images/html/advanced/footer_logo.png" alt="PROGATE">
+        <p>Learn to code, learn to be creative.</p>
+      </div>
     </footer>
   </body>
 </html>
-
